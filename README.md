@@ -43,11 +43,15 @@ Arraste a superfície da escultura com o mouse para girá-la. No celular, desliz
 
 ## Atualizar pelo GitHub
 
-O projeto está preparado para Git, com branch main. O repositório remoto ainda precisa ser criado: o conector disponível não oferece essa operação nesta sessão. Recomenda-se um repositório privado chamado axis, inicialmente vazio, sem README ou licença gerados pelo GitHub. Após conectar o remoto:
+Repositório: [mukinha01/AXIS](https://github.com/mukinha01/AXIS), público por configuração do proprietário. Branch principal: main. O commit inicial do GitHub foi integrado ao histórico local, preservando o README completo do projeto.
+
+Para baixar o projeto:
 
 ```sh
-git remote add origin https://github.com/SEU-USUARIO/axis.git
-git push -u origin main
+git clone https://github.com/mukinha01/AXIS.git
+cd AXIS
+npm ci
+npm run dev
 ```
 
-Para alterações seguintes, atualize a segunda mente, execute npm run check e npm test, revise git diff, faça commit e envie com git push. Em PowerShell com scripts bloqueados, use npm.cmd. O workflow .github/workflows/check.yml executa instalação, check e testes em pushes e pull requests; não publica o site. Arquivos .env, metadados locais .openai, node_modules, logs e pacotes zip ficam fora do Git. Three.js e sua licença local permanecem incluídos em dist/vendor.
+Para alterações seguintes, atualize a segunda mente, execute npm run check e npm test, revise git diff, faça commit e envie com git push. Antes de trabalhar em outro computador, use git pull --ff-only. Em PowerShell com scripts bloqueados, use npm.cmd. O workflow .github/workflows/check.yml executa instalação, check e testes em pushes e pull requests; não publica o site. Arquivos .env, metadados locais .openai, node_modules, logs e pacotes zip ficam fora do Git. Three.js e sua licença local permanecem incluídos em dist/vendor.

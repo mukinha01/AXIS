@@ -33,3 +33,7 @@ Pedido de melhorias visuais começa pelo laboratório e pelo tema claro. A hiera
 ## A006 — Git e rotação direta
 
 Usuário autorizou repositório GitHub e manipulação das formas do hero. Preparar branch main e validação automatizada sem deploy. Preferir remoto privado, preservando a direção privada existente; criação remota está pendente por ausência de operação no conector e navegador. Excluir metadados .openai e arquivos de ambiente do histórico. Rotação usa APIs e Three.js já existentes, somente sobre a geometria; toque vertical preserva rolagem. Movimento manual permanece disponível com movimento reduzido.
+
+## A007 — Remoto escolhido pelo usuário
+
+Usuário criou e forneceu mukinha01/AXIS e autorizou conectar e enviar. Repositório público conforme configuração do proprietário, sem alteração de visibilidade. Integrar o commit inicial remoto ao histórico local, preservando a documentação completa no conflito de README; não usar force push. Hospedagem do site permanece separada do versionamento.

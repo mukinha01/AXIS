@@ -46,3 +46,7 @@ Dist/ideas.css inclui bloco final de refinamento de hierarquia, superfícies, co
 - dist/scene.js: arraste, teclado, controles de giro e reinício.
 - dist/index.html / dist/styles.css: instruções, foco e controles responsivos do hero.
 - README.md: uso do 3D e fluxo de atualizações pelo GitHub.
+
+## Remoto GitHub
+
+[Repositório AXIS](https://github.com/mukinha01/AXIS), origin HTTPS e branch main. README descreve clone e atualização; workflow valida pushes e pull requests sem deploy.

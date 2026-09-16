@@ -33,3 +33,7 @@ Implementados arraste sobre a geometria, giro por botões/setas e reinício por 
 Git inicializado em main, ignore ampliado e workflow de validação preparado. Conta GitHub conectada identificada, mas conector não oferece criação de repositórios; gh não está instalado e não há navegador conectado. Remoto e push pendentes. Site publicado permanece versão 4; mudanças locais não foram publicadas. Workflow ainda não executado no GitHub.
 
 Validação final: npm.cmd run check passou (quatro scripts, 11 documentos obrigatórios, links e assets). Primeiro commit local reúne projeto, documentação e testes; não foi enviado ao GitHub. Verificação visual e execução remota do workflow continuam pendentes.
+
+## Conexão ao GitHub
+
+Usuário forneceu https://github.com/mukinha01/AXIS.git. origin conectado e histórico inicial remoto integrado sem force push; README do projeto preservado. Repositório público por configuração do proprietário. Envio será verificado por comparação do SHA remoto com HEAD. Site permanece versão 4; QA visual das alterações locais continua pendente. Workflow de validação não realiza deploy.

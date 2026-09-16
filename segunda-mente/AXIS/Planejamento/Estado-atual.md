@@ -37,3 +37,5 @@ Validação final: npm.cmd run check passou (quatro scripts, 11 documentos obrig
 ## Conexão ao GitHub
 
 Usuário forneceu https://github.com/mukinha01/AXIS.git. origin conectado e histórico inicial remoto integrado sem force push; README do projeto preservado. Repositório público por configuração do proprietário. Envio será verificado por comparação do SHA remoto com HEAD. Site permanece versão 4; QA visual das alterações locais continua pendente. Workflow de validação não realiza deploy.
+
+Envio concluído: main acompanha origin/main. SHA f65df383bb7fb2ecad3f51bc7014e5b69633f999 confirmado em HEAD e no remoto, árvore limpa. npm.cmd run check e os cinco testes passaram. Workflow Validar AXIS iniciado no GitHub e ainda em andamento na consulta: https://github.com/mukinha01/AXIS/actions/runs/35098724015. Publicação do site não alterada.

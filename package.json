@@ -1,0 +1,15 @@
+{
+  "name": "axis",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Estudio criativo experimental com 3D, motion e temas claro e escuro",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check dist/app.js && node --check dist/scene.js && node --check dist/experience.js && node --check dist/ideas.js && node scripts/verificar-documentacao.mjs",
+    "postinstall": "node scripts/prepare-vendor.mjs",
+    "test": "node --test --test-isolation=none test/*.test.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.0"
+  }
+}
